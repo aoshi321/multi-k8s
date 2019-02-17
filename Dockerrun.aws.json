@@ -24,13 +24,13 @@
     },
     {
       "name":"nginx",
-      "image": "aoshi/multi-nginx",
+      "image": "aoshi/multi-ngnix",
       "hostname": "nginx",
       "essential": true,
       "portMappings":[
 	{
 	"hostPort": 80,
-	  "containerPort": 80
+	"containerPort": 80
 	}
       ],
       "links":["client","server"],
